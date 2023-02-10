@@ -1,0 +1,146 @@
+
+:root{
+    --bs-blue:#037BC0;
+    --bs-green: #8cbc00;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62.5;
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 60%;
+}
+nav{
+    padding: 1em;
+}
+nav ul{
+    height: auto;
+    width: auto;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: rgb(159, 159, 159);
+    justify-content: space-evenly;
+}
+nav li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    color: rgb(74, 73, 73);
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+}
+body{
+    font-family: Playfair;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+@media (min-width: 768px){
+    h1{
+        font-size: 3rem;
+    }
+    .imagen-principal{
+        size: 55rem;
+    }
+    h2{
+        font-size: 2.2rem;
+    }
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 3rem;
+}
+h1 span{
+    color: #037BC0;
+}
+footer{
+    align-self: center;
+}
+.contenedor-img{
+    height: auto;
+    width: auto;
+}
+.titulo-prod{
+    text-align: center;
+}
+.container{
+    align-self: center;
+}
+.card-body{
+    background-color: #037BC0;
+    color: white;
+}
+.btn-success{
+    background-color: var(--bs-green)!important;
+    border-radius: .5rem;
+    width: 150px;
+    height: 200;
+    align-self: center;
+
+}
+.bg-primary,
+.btn-primary{
+    background-color: var(--bs-blue)!important;
+}
+.categorias-prod{
+    text-align: center;
+}
+.card-body{
+    color: white;
+    text-align: center;
+
+}
+.imagen-principal{
+    size: 25rem;
+}
+.card-text{
+    color: white;
+}
+.card-title{
+    color: white;
+    text-align: center;
+}
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#categ{
+    border: none;
+}
+#catbody{
+    background: white;
+}
+#catitulo{
+    color: black;
+}
+#optshad{
+    transition: .4s;
+}
+#optshad:hover{
+    text-shadow: 1px 1px 3px rgb(96, 96, 96);
+}
+#catitulo:hover{
+    text-shadow: 1px 1px 3px rgb(96, 96, 96);
+}
+
+
